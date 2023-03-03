@@ -14,7 +14,7 @@ function setup() {
     w = width/cols;
     h = height/rows;
 
-    for(let i = 0; i < cols; i++){
+    for(let i = 0; i < cols; i++) {
         for(let j = 0; j < rows; j++) {
             let x = i * w;
             let y = j * h;
@@ -44,13 +44,13 @@ function swap(i, j, arr) {
 
 function randomMove(arr) {
     let r1 = floor(random(cols));
-        let r2 = floor(random(rows));
-        swap(r1, r2, arr)
+    let r2 = floor(random(rows));
+    moveTile(r1, r2, arr)
 }
 
 //shuffle tiles
 function puzzleShuffle(arr){
-    for (let i = 0; i < 100; i++){
+    for (let i = 0; i < 5; i++){
         randomMove(arr);
     }
 }
@@ -59,7 +59,7 @@ function puzzleShuffle(arr){
 function mousePressed() {
     let i = floor(mouseX / w);
     let j = floor(mouseY / h);
-    move(i, j, board);
+    moveTile(i, j, board);
 }
 
 function draw() {
@@ -73,7 +73,7 @@ function draw() {
             let tileIndex = board[index];
             if (tileIndex > -1) {
                 let img = tiles[tileIndex].img;
-                image(img, x, y);
+                image(img, x, y, w, h);
             }
         }
     }
@@ -88,12 +88,27 @@ function draw() {
             rect(x, y, w, h);
         }
     }
+
+    // If it is solved
+    if (isSolved()) {
+        alert("Well done! You solved the puzzle!");
+        return;
+    }
 }
 
 
+// Check if solved
+function isSolved() {
+  for (let i = 0; i < board.length-1; i++) {
+    if (board[i] !== tiles[i].index) {
+      return false;
+    }
+  }
+  return true;
+}
 
 // Swap two pieces
-function move(i, j, arr) {
+function moveTile(i, j, arr) {
     let blank = findBlank();
     let blankCol = blank % cols;
     let blankRow = floor(blank / rows);
