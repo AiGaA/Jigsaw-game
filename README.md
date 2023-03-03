@@ -1,1 +1,1 @@
-# Jigsaw-game
+# Jigsaw-puzzle-game
