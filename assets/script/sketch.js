@@ -27,8 +27,14 @@ function setup() {
         }
     }
 
+    tiles.pop();
+    board.pop();
+    //This will hide the last tile
+    board.push(-1);
+
     puzzleShuffle(board);
 }
+
 
 function swap(i, j, arr) {
     let temp = arr[i];
@@ -36,15 +42,28 @@ function swap(i, j, arr) {
     arr[j] = temp;
 }
 
+function randomMove(arr) {
+    let r1 = floor(random(cols));
+        let r2 = floor(random(rows));
+        swap(r1, r2, arr)
+}
+
+//shuffle tiles
 function puzzleShuffle(arr){
     for (let i = 0; i < 100; i++){
-        let r1 = floor(random(0, arr.length));
-        let r2 = floor(random(0, arr.length));
-        swap(r1, r2, arr)
+        randomMove(arr);
     }
 }
 
+// Move based on click
+function mousePressed() {
+    let i = floor(mouseX / w);
+    let j = floor(mouseY / h);
+    move(i, j, board);
+}
+
 function draw() {
+    background(0);
     //image(source, 0, 0);
     for(let i = 0; i < cols; i++){
         for(let j = 0; j < rows; j++) {
@@ -52,8 +71,10 @@ function draw() {
             let x = i * w;
             let y = j * h;
             let tileIndex = board[index];
-            let img = tiles[tileIndex].img;
-            image(img, x, y);
+            if (tileIndex > -1) {
+                let img = tiles[tileIndex].img;
+                image(img, x, y);
+            }
         }
     }
 
@@ -66,5 +87,37 @@ function draw() {
             noFill();
             rect(x, y, w, h);
         }
+    }
+}
+
+
+
+// Swap two pieces
+function move(i, j, arr) {
+    let blank = findBlank();
+    let blankCol = blank % cols;
+    let blankRow = floor(blank / rows);
+    
+    // Double check valid move
+    if (isNeighbor(i, j, blankCol, blankRow)) {
+      swap(blank, i + j * cols, arr);
+    }
+}
+
+// Check if neighbor
+function isNeighbor(i, j, x, y) {
+    if (i !== x && j !== y) {
+      return false;
+    }
+  
+    if (abs(i - x) == 1 || abs(j - y) == 1) {
+      return true;
+    }
+    return false;
+}
+
+function findBlank(){
+    for(let i = 0; i < board.length; i++){
+        if (board[i] == -1) return i;
     }
 }
