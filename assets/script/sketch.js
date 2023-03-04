@@ -1,16 +1,18 @@
 let source;
 let tiles = [];
-let cols = 3;
-let rows = 3;
+let cols = 4;
+let rows = 4;
 let w, h;
 let board = [];
 
 function preload() {
-    source = loadImage("./assets/images/Butterfly.png")
+    source = loadImage("./assets/images/fox.png")
 }
 
 function setup() {
-    createCanvas(600, 600);
+    const myPuzzle = createCanvas(600, 600);
+    myPuzzle.parent('puzzleDiv');
+
     w = width/cols;
     h = height/rows;
 
@@ -33,6 +35,7 @@ function setup() {
     board.push(-1);
 
     puzzleShuffle(board);
+
 }
 
 
@@ -50,7 +53,7 @@ function randomMove(arr) {
 
 //shuffle tiles
 function puzzleShuffle(arr){
-    for (let i = 0; i < 5; i++){
+    for (let i = 0; i < 100; i++){
         randomMove(arr);
     }
 }
@@ -91,11 +94,9 @@ function draw() {
 
     // If it is solved
     if (isSolved()) {
-        alert("Well done! You solved the puzzle!");
-        return;
+        console.log("You've solved it!!");
     }
 }
-
 
 // Check if solved
 function isSolved() {
