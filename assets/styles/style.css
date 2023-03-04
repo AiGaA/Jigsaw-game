@@ -1,5 +1,50 @@
+/* Color Pallette root element for all colors used throughout the project*/
+:root {
+    --backgroundColor: #F4F1DE;
+    --redAccent: #E07A5F;
+    --darkText: #3D405B;
+    --greenAccent: #81B29A;
+    --beigeBg: #F2CC8F;
+}
+
 body {
-    background-color: antiquewhite;
+    margin: 0;
+    background-color: var(--backgroundColor);
+    color: var(--darkText);
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-button {
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid var(--greenAccent);
+    border-radius: 5px;
+}
+
+.main-button:hover {
+    background-color: var(--beigeBg);
+    transition: ease .4s;
+}
+
+.main-button a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--darkText);
 }
 
 #puzzleDiv {
