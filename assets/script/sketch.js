@@ -63,6 +63,12 @@ function mousePressed() {
     let i = floor(mouseX / w);
     let j = floor(mouseY / h);
     moveTile(i, j, board);
+
+    // If it is solved
+    if (isSolved()) {
+        alert("You've solved it!!");
+        
+    }
 }
 
 function draw() {
@@ -77,10 +83,10 @@ function draw() {
             if (tileIndex > -1) {
                 let img = tiles[tileIndex].img;
                 image(img, x, y, w, h);
-            }
+            }   
         }
     }
-
+        
     // Show it as grid
     for (let i = 0; i < cols; i++) {
         for (let j = 0; j < rows; j++) {
@@ -89,13 +95,9 @@ function draw() {
             strokeWeight(2);
             noFill();
             rect(x, y, w, h);
-        }
+        }        
     }
 
-    // If it is solved
-    if (isSolved()) {
-        console.log("You've solved it!!");
-    }
 }
 
 // Check if solved

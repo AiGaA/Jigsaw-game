@@ -59,7 +59,7 @@ body {
     align-items: center;
     justify-content: center;
     position: fixed;
-    /*opacity: 0;*/
+    opacity: 0;
     pointer-events: none;
     top: 0;
     left: 0;
