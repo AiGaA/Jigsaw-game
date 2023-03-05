@@ -35,7 +35,6 @@ function setup() {
     board.push(-1);
 
     puzzleShuffle(board);
-
 }
 
 
@@ -66,8 +65,7 @@ function mousePressed() {
 
     // If it is solved
     if (isSolved()) {
-        alert("You've solved it!!");
-        
+        console.log("You've solved it!!");
     }
 }
 
@@ -97,7 +95,6 @@ function draw() {
             rect(x, y, w, h);
         }        
     }
-
 }
 
 // Check if solved
@@ -117,13 +114,13 @@ function moveTile(i, j, arr) {
     let blankRow = floor(blank / rows);
     
     // Double check valid move
-    if (isNeighbor(i, j, blankCol, blankRow)) {
+    if (isNeighbour(i, j, blankCol, blankRow)) {
       swap(blank, i + j * cols, arr);
     }
 }
 
 // Check if neighbor
-function isNeighbor(i, j, x, y) {
+function isNeighbour(i, j, x, y) {
     if (i !== x && j !== y) {
       return false;
     }
