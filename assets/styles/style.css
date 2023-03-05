@@ -10,17 +10,17 @@
 /*Fonts for the project*/
 @font-face {
     font-family: 'Montserrat-Thin';
-    src: url(./assets/fonts/Montserrat-Thin.ttf) format('truetype');
+    src: url(/assets/fonts/Montserrat-Thin.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Montserrat-Bold';
-    src: url(./assets/fonts/Montserrat-Bold.ttf) format('truetype');
+    src: url(/assets/fonts/Montserrat-Bold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Montserrat-Regular';
-    src: url(./assets/fonts/Montserrat-Regular.ttf) format('truetype');
+    src: url(/assets/fonts/Montserrat-Regular.ttf) format('truetype');
 }
 
 /*Global default settings*/
