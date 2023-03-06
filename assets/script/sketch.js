@@ -65,9 +65,10 @@ function mousePressed() {
 
     // If it is solved
     if (isSolved()) {
-        console.log("You've solved it!!");
+        document.getElementById('modal-win').classList.add('show');
     }
 }
+
 
 function draw() {
     background(0);
