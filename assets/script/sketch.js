@@ -65,10 +65,10 @@ function mousePressed() {
 
     // If it is solved
     if (isSolved()) {
-        document.getElementById('modal-win').classList.add('show');
+        let showWinnerModal = document.getElementById('modal-win');
+        showWinnerModal.classList.add('show');
     }
 }
-
 
 function draw() {
     background(0);
@@ -96,6 +96,7 @@ function draw() {
             rect(x, y, w, h);
         }        
     }
+    playAgain();
 }
 
 // Check if solved
@@ -137,3 +138,27 @@ function findBlank(){
         if (board[i] == -1) return i;
     }
 }
+
+function playAgain () {
+    let showWinnerModal = document.getElementById('modal-win');
+    if (exitGame()) {
+        return true;
+    } else {
+        document.getElementById('btn-yes').addEventListener('click', () => {
+            showWinnerModal.classList.remove('show');
+            setup();
+        });
+    }
+}
+
+function exitGame () {
+    let closeGame = document.getElementById('btn-no');
+    let showWinnerModal = document.getElementById('modal-win');
+
+    closeGame.addEventListener('click', () => {
+        showWinnerModal.classList.remove('show');
+    });
+}
+
+
+
