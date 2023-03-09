@@ -1,9 +1,10 @@
 let source;
 let tiles = [];
-let cols = 4;
-let rows = 4;
+let cols = 3;
+let rows = 3;
 let w, h;
 let board = [];
+
 
 function preload() {
     source = loadImage("./assets/images/fox.png")
@@ -71,6 +72,8 @@ function mousePressed() {
 }
 
 function draw() {
+    const refreshButton = document.getElementById('refresh-btn');
+    
     background(0);
     //image(source, 0, 0);
     for(let i = 0; i < cols; i++){
@@ -97,6 +100,10 @@ function draw() {
         }        
     }
     playAgain();
+
+    refreshButton.addEventListener('click', () => {
+        puzzleShuffle(board);
+    });
 }
 
 // Check if solved
@@ -146,7 +153,7 @@ function playAgain () {
     } else {
         document.getElementById('btn-yes').addEventListener('click', () => {
             showWinnerModal.classList.remove('show');
-            setup();
+            puzzleShuffle(board);
         });
     }
 }
