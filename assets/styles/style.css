@@ -137,6 +137,27 @@ h4 {
     margin-top: 5%;
 }
 
+#refresh-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.refresh-button {
+    width: 86px;
+    height: 36px;
+    font-size: 18px;
+    border: 1px solid var(--darkText);
+    border-radius: 5px;
+}
+
+.refresh-button:hover {
+    background-color: rgba(224, 122, 95, 0.6);
+    transition: ease .4s
+}
+
+
 .modal-container {
     background: rgba(0, 0, 0, 0.4);
     display: flex;
