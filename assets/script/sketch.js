@@ -53,7 +53,7 @@ function randomMove(arr) {
 
 //shuffle tiles
 function puzzleShuffle(arr){
-    for (let i = 0; i < 100; i++){
+    for (let i = 0; i < 50; i++){
         randomMove(arr);
     }
 }
@@ -63,17 +63,19 @@ function mousePressed() {
     let i = floor(mouseX / w);
     let j = floor(mouseY / h);
     moveTile(i, j, board);
+}
+
+function draw() {
+    const refreshButton = document.getElementById('refresh-btn');
 
     // If it is solved
     if (isSolved()) {
         let showWinnerModal = document.getElementById('modal-win');
         showWinnerModal.classList.add('show');
     }
-}
 
-function draw() {
-    const refreshButton = document.getElementById('refresh-btn');
-    
+    gameEnd();
+
     background(0);
     //image(source, 0, 0);
     for(let i = 0; i < cols; i++){
@@ -99,7 +101,6 @@ function draw() {
             rect(x, y, w, h);
         }        
     }
-    playAgain();
 
     refreshButton.addEventListener('click', () => {
         puzzleShuffle(board);
@@ -146,25 +147,20 @@ function findBlank(){
     }
 }
 
-function playAgain () {
-    let showWinnerModal = document.getElementById('modal-win');
-    if (exitGame()) {
-        return true;
-    } else {
-        document.getElementById('btn-yes').addEventListener('click', () => {
-            showWinnerModal.classList.remove('show');
-            puzzleShuffle(board);
-        });
-    }
-}
-
-function exitGame () {
-    let closeGame = document.getElementById('btn-no');
-    let showWinnerModal = document.getElementById('modal-win');
+function gameEnd() {
+    const closeGame = document.getElementById('btn-no');
+    const playAgain = document.getElementById('btn-yes');
+    const showWinnerModal = document.getElementById('modal-win');
 
     closeGame.addEventListener('click', () => {
         showWinnerModal.classList.remove('show');
     });
+
+    playAgain.addEventListener('click', () => {
+        showWinnerModal.classList.remove('show');
+        puzzleShuffle(board);
+    });
+
 }
 
 
