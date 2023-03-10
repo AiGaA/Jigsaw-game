@@ -17,3 +17,9 @@
     - [Unfixed Bugs](https://github.com/AiGaA/Jigsaw-puzzle-game#unfixed-bugs)
 - [Deployment](https://github.com/AiGaA/Jigsaw-puzzle-game#deployment)
 - [Credits](https://github.com/AiGaA/Jigsaw-puzzle-game#credits)
+
+## Design
+### Wireframes
+For this project I have used Balsamiq tool to create layout and design for the game. 
+Screenshots for Web page:
+![alt text](https://github.com/AiGaA/Jigsaw-puzzle-game/assets/images/mainPg.PNG "Main page screenshot for the website")
