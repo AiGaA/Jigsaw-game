@@ -6,7 +6,6 @@ let w, h;
 let board = [];
 const refreshButton = document.querySelector('.refresh-button'); 
 
-
 function preload() {
     source = loadImage("./assets/images/fox.png")
 }
@@ -78,7 +77,6 @@ function draw() {
     refreshButton.addEventListener('click', () => {
         puzzleShuffle(board);
     });
-
 }
 
 function swap(i, j, arr) {
@@ -148,7 +146,6 @@ function findBlank(){
 }
 
 function gameEnd() {
-
     const closeGame = document.getElementById('btn-close');
     const playAgain = document.querySelector('#btn-yes');
     const showWinnerModal = document.querySelector('#modal-win');
@@ -165,5 +162,3 @@ function gameEnd() {
         background(source);
     });
 }
-
-

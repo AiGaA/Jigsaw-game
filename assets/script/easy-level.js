@@ -4,7 +4,7 @@ let cols = 3;
 let rows = 3;
 let w, h;
 let board = [];
-
+const refreshButton = document.querySelector('.refresh-button'); 
 
 function preload() {
     source = loadImage("./assets/images/fox.png")
@@ -38,7 +38,6 @@ function setup() {
     puzzleShuffle(board);
 
 }
-
 
 function swap(i, j, arr) {
     let temp = arr[i];
@@ -96,19 +95,15 @@ function draw() {
     }
 
     // If it is solved
-    if (isSolved()) {
-        let showWinnerModal = document.getElementById('modal-win');
-        showWinnerModal.classList.add('show');
-    }
-
+   if (isSolved()) {
     gameEnd();
+    background(source);
+    }
 
     refreshButton.addEventListener('click', () => {
         puzzleShuffle(board);
     });
 }
-
-
 
 // Check if solved
 function isSolved() {
@@ -152,16 +147,18 @@ function findBlank(){
 
 function gameEnd() {
     const closeGame = document.getElementById('btn-close');
-    const playAgain = document.getElementById('btn-yes');
-    const showWinnerModal = document.getElementById('modal-win');
+    const playAgain = document.querySelector('#btn-yes');
+    const showWinnerModal = document.querySelector('#modal-win');
 
-    closeGame.addEventListener('click', () => {
-        showWinnerModal.classList.remove('show');
-        
-    });
+    showWinnerModal.classList.add('show');
 
     playAgain.addEventListener('click', () => {
         showWinnerModal.classList.remove('show');
         puzzleShuffle(board);
+    });
+
+    closeGame.addEventListener('click', () => {
+        showWinnerModal.classList.add('close');
+        background(source);
     });
 }
