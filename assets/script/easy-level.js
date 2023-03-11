@@ -4,7 +4,12 @@ let cols = 3;
 let rows = 3;
 let w, h;
 let board = [];
+
 const refreshButton = document.querySelector('.refresh-button'); 
+    
+refreshButton.addEventListener('click', () => {
+    puzzleShuffle(board);
+});
 
 function preload() {
     source = loadImage("./assets/images/fox.png")
@@ -66,8 +71,6 @@ function mousePressed() {
 }
 
 function draw() {
-    const refreshButton = document.getElementById('refresh-btn');
-
     background(0);
     //image(source, 0, 0);
     for(let i = 0; i < cols; i++){
@@ -99,10 +102,6 @@ function draw() {
     gameEnd();
     background(source);
     }
-
-    refreshButton.addEventListener('click', () => {
-        puzzleShuffle(board);
-    });
 }
 
 // Check if solved

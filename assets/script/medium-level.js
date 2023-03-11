@@ -4,7 +4,12 @@ let cols = 4;
 let rows = 4;
 let w, h;
 let board = [];
+
 const refreshButton = document.querySelector('.refresh-button'); 
+    
+refreshButton.addEventListener('click', () => {
+    puzzleShuffle(board);
+});
 
 function preload() {
     source = loadImage("./assets/images/fox.png")
@@ -36,7 +41,6 @@ function setup() {
     board.push(-1);
 
     puzzleShuffle(board);
-
 }
 
 //draw puzzle board
@@ -73,10 +77,6 @@ function draw() {
     gameEnd();
     background(source);
     }
-
-    refreshButton.addEventListener('click', () => {
-        puzzleShuffle(board);
-    });
 }
 
 function swap(i, j, arr) {
