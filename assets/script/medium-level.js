@@ -5,7 +5,7 @@ let rows = 4;
 let w, h;
 let board = [];
 
-const refreshButton = document.querySelector('.refresh-button'); 
+const refreshButton = document.getElementById('refresh-button'); 
     
 refreshButton.addEventListener('click', () => {
     puzzleShuffle(board);
@@ -93,7 +93,7 @@ function randomMove(arr) {
 
 //shuffle tiles
 function puzzleShuffle(arr){
-    for (let i = 0; i < 100; i++){
+    for (let i = 0; i < 10; i++){
         randomMove(arr);
     }
 }

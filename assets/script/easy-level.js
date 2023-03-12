@@ -5,10 +5,16 @@ let rows = 3;
 let w, h;
 let board = [];
 
-const refreshButton = document.querySelector('.refresh-button'); 
-    
+const refreshButton = document.getElementById('refresh-button');
+const showImageButton = document.getElementById('show-img');
+const showImageModal = document.getElementById('modal-full-img')
+
 refreshButton.addEventListener('click', () => {
     puzzleShuffle(board);
+});
+
+showImageButton.addEventListener('click', () => {
+    showImageModal.classList.add('show');
 });
 
 function preload() {
@@ -41,36 +47,11 @@ function setup() {
     board.push(-1);
 
     puzzleShuffle(board);
-
 }
 
-function swap(i, j, arr) {
-    let temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
-}
-
-function randomMove(arr) {
-    let r1 = floor(random(cols));
-    let r2 = floor(random(rows));
-    moveTile(r1, r2, arr);
-}
-
-//shuffle tiles
-function puzzleShuffle(arr){
-    for (let i = 0; i < 50; i++){
-        randomMove(arr);
-    }
-}
-
-// Move based on click
-function mousePressed() {
-    let i = floor(mouseX / w);
-    let j = floor(mouseY / h);
-    moveTile(i, j, board);
-}
-
+//draw puzzle board
 function draw() {
+
     background(0);
     //image(source, 0, 0);
     for(let i = 0; i < cols; i++){
@@ -97,11 +78,38 @@ function draw() {
         }        
     }
 
-    // If it is solved
+   // If it is solved
    if (isSolved()) {
     gameEnd();
     background(source);
     }
+    
+}
+
+function swap(i, j, arr) {
+    let temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+}
+
+function randomMove(arr) {
+    let r1 = floor(random(cols));
+    let r2 = floor(random(rows));
+    moveTile(r1, r2, arr);
+}
+
+//shuffle tiles
+function puzzleShuffle(arr){
+    for (let i = 0; i < 5; i++){
+        randomMove(arr);
+    }
+}
+
+// Move based on click
+function mousePressed() {
+    let i = floor(mouseX / w);
+    let j = floor(mouseY / h);
+    moveTile(i, j, board);
 }
 
 // Check if solved
