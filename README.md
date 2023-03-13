@@ -18,6 +18,18 @@
 - [Deployment](https://github.com/AiGaA/Jigsaw-puzzle-game#deployment)
 - [Credits](https://github.com/AiGaA/Jigsaw-puzzle-game#credits)
 
+## About
+Jigsaw Puzzle Game is fun and interactive site for kids and grownups where you can enjoy solving fun and colourful puzzles.
+
+### Site Purpose
+Playing puzzles can be very beneficial to kids and as well as adults. Playing puzzle games can be great fun, it sharpens your mind, develop memory skills, as well as an abiliy to plan, test ideas and solve problems.
+
+### Target Audience
+This site is developed for anyone and any age group who enjoys games, puzzles, or just like to have fun.
+
+### Goals
+This site is goals are bringing some positivity and to create fun environtment for its users.
+
 ## Design
 ### Wireframes
 For this project I have used Balsamiq tool to create layout and design for the game. 
