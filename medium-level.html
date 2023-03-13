@@ -26,8 +26,9 @@
         </nav>
     </header>
     <div id="puzzleDiv"></div>
-    <div id="refresh-btn">
-        <button type="button" class="refresh-button" id="refresh-button">Refresh</button>
+    <div id="action-btn">
+        <button type="button" class="action-button" id="refresh-button">Refresh</button>
+        <button type="button" class="action-button" id="show-img">Show Image</button>
     </div>
     <!--Modal shows when game completed-->
     <div class="modal-container" id="modal-win"> 
@@ -36,6 +37,13 @@
             <p>Do you want to try again?</p>
             <button type="button" class="modal-btn" id="btn-yes">Yes</button>
             <button type="button" class="modal-btn" id="btn-close">No</button>
+        </div>
+    </div>
+    <!--Modal showing the image to be solved-->
+    <div class="modal-container" id="modal-full-img">
+        <div class="img-modal">
+            <button class="modal-close-btn" id="close-img-modal">X</button>
+            <img src="./assets/images/space.png" alt="Full puzzle image of astranout on the spaceship.">
         </div>
     </div>
 </body>

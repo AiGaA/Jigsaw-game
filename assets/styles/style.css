@@ -195,8 +195,8 @@ h4 {
     width: 1.7rem;
     height: 1.7rem;
     border-radius: 50%;
-    border: 1px solid rgba(79, 79, 81, 0.4);
-    color: rgba(79, 79, 81, 0.4);
+    border: 1px solid var(--darkText);
+    color: var(--darkText);
     background: none;
     font-size: 1.5rem;
     text-align: center;

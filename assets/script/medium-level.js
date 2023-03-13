@@ -6,9 +6,20 @@ let w, h;
 let board = [];
 
 const refreshButton = document.getElementById('refresh-button'); 
+const showImageButton = document.getElementById('show-img');
+const showImageModal = document.getElementById('modal-full-img');
+const closeImageModal = document.getElementById('close-img-modal');
     
 refreshButton.addEventListener('click', () => {
     puzzleShuffle(board);
+});
+
+showImageButton.addEventListener('click', () => {
+    showImageModal.classList.add('show');
+});
+
+closeImageModal.addEventListener('click', () =>{
+    showImageModal.classList.remove('show');
 });
 
 function preload() {
@@ -93,7 +104,7 @@ function randomMove(arr) {
 
 //shuffle tiles
 function puzzleShuffle(arr){
-    for (let i = 0; i < 6; i++){
+    for (let i = 0; i < 15; i++){
         randomMove(arr);
     }
 }
