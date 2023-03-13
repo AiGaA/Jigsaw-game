@@ -12,7 +12,7 @@ refreshButton.addEventListener('click', () => {
 });
 
 function preload() {
-    source = loadImage("./assets/images/fox.png")
+    source = loadImage("./assets/images/space.png");
 }
 
 function setup() {
@@ -93,7 +93,7 @@ function randomMove(arr) {
 
 //shuffle tiles
 function puzzleShuffle(arr){
-    for (let i = 0; i < 10; i++){
+    for (let i = 0; i < 6; i++){
         randomMove(arr);
     }
 }
