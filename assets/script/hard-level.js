@@ -1,7 +1,7 @@
 let source;
 let tiles = [];
-let cols = 4;
-let rows = 4;
+let cols = 5;
+let rows = 5;
 let w, h;
 let board = [];
 
@@ -23,7 +23,7 @@ closeImageModal.addEventListener('click', () =>{
 });
 
 function preload() {
-    source = loadImage("./assets/images/space.png");
+    source = loadImage("./assets/images/flowers.png");
 }
 
 function setup() {
@@ -104,7 +104,7 @@ function randomMove(arr) {
 
 //shuffle tiles
 function puzzleShuffle(arr){
-    for (let i = 0; i < 100; i++){
+    for (let i = 0; i < 300; i++){
         randomMove(arr);
     }
 }
