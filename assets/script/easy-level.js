@@ -159,7 +159,7 @@ function findBlank(){
 }
 
 function gameEnd() {
-    const closeGame = document.getElementById('btn-close');
+    const closeGame = document.querySelector('#btn-close');
     const playAgain = document.querySelector('#btn-yes');
     const showWinnerModal = document.querySelector('#modal-win');
 
@@ -170,8 +170,11 @@ function gameEnd() {
         puzzleShuffle(board);
     });
 
-    closeGame.addEventListener('click', () => {
-        showWinnerModal.classList.add('close');
-        background(source);
+    closeGame.addEventListener('click', () => { 
+        goHome();
     });
+}
+
+function goHome() {
+    window.location.href="../index.html";
 }

@@ -104,7 +104,7 @@ function randomMove(arr) {
 
 //shuffle tiles
 function puzzleShuffle(arr){
-    for (let i = 0; i < 15; i++){
+    for (let i = 0; i < 100; i++){
         randomMove(arr);
     }
 }
@@ -169,7 +169,10 @@ function gameEnd() {
     });
 
     closeGame.addEventListener('click', () => {
-        showWinnerModal.classList.add('close');
-        background(source);
+        goHome();
     });
+}
+
+function goHome() {
+    window.location.href="../index.html";
 }
