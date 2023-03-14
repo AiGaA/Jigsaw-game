@@ -22,8 +22,9 @@ closeImageModal.addEventListener('click', () =>{
     showImageModal.classList.remove('show');
 });
 
+
 function preload() {
-    source = loadImage("./assets/images/fox.png")
+    source = loadImage("./assets/images/fox.png");
 }
 
 function setup() {
@@ -105,7 +106,7 @@ function randomMove(arr) {
 
 //shuffle tiles
 function puzzleShuffle(arr){
-    for (let i = 0; i < 10; i++){
+    for (let i = 0; i < 50; i++){
         randomMove(arr);
     }
 }

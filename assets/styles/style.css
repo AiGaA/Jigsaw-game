@@ -243,11 +243,27 @@ footer p {
     padding: 5px 15px;
 }
 
-/*Media queries for responsiveness*/
-@media screen and (max-width: 500px) {
 
+/*Media queries for responsiveness*/
+@media screen and (max-width: 1520px) {
+    /*Resize the puzzle canvas*/
     canvas {
         width: 400px !important;
         height: 400px !important;
+    }
+
+}
+
+/*Media queries for responsiveness*/
+@media screen and (max-width: 640px) {
+    /*Resize the puzzle canvas*/
+    canvas {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .img-modal img {
+        width: 300px;
+        height: 300px;
     }
 }
