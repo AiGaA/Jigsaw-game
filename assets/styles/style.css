@@ -246,6 +246,11 @@ footer p {
 
 /*Media queries for responsiveness*/
 @media screen and (max-width: 1520px) {
+    h1 {
+        font-size: 2.4em;
+        margin: 8% 8%;
+    }
+
     /*Resize the puzzle canvas*/
     canvas {
         width: 400px !important;
@@ -256,6 +261,26 @@ footer p {
 
 /*Media queries for responsiveness*/
 @media screen and (max-width: 640px) {
+
+    h1 {
+        font-size: 2em;
+        padding: 4% 4%;
+    }
+
+    h4 {
+        font-size: 1.2em;
+        padding: 2% 2%;
+        margin: 0 6%;
+    }
+
+    .button-container {
+        margin: 5%;
+    }
+
+    .main-button {
+        width: 300px;
+    }
+
     /*Resize the puzzle canvas*/
     canvas {
         width: 300px !important;
@@ -284,6 +309,31 @@ footer p {
 
 /*much smaller width devices, such as Galaxy Fold*/
 @media screen and (max-width: 300px) {
+
+    h1 {
+        font-size: 1.6em;
+        padding: 4% 0;
+    }
+
+    h4 {
+        font-size: 1em;
+        padding: 2% 2%;
+        margin: 0 6%;
+    }
+
+    .button-container {
+        margin: 5%;
+    }
+
+    .main-button {
+        width: 200px;
+        height: 32px;
+    }
+
+    .main-button a {
+        font-size: 14px;
+        letter-spacing: 1.8px;
+    }
 
     .flex-nav a {
         font-size: 1rem;
