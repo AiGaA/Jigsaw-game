@@ -266,4 +266,47 @@ footer p {
         width: 300px;
         height: 300px;
     }
+
+    #puzzleDiv {
+        margin-top: 10%;
+    }
+
+    #action-btn {
+        margin-top: 8%;
+    }
+
+    .action-button {
+        width: 98px;
+        font-size: 15px;
+        margin: 0 4%;
+    }
+}
+
+/*much smaller width devices, such as Galaxy Fold*/
+@media screen and (max-width: 300px) {
+
+    canvas {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .img-modal img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #puzzleDiv {
+        margin-top: 15%;
+    }
+
+    #action-btn {
+        margin-top: 8%;
+    }
+
+    .action-button {
+        width: 86px;
+        height: 32px;
+        font-size: 14px;
+        margin: 0 4%;
+    }
 }
