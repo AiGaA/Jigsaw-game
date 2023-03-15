@@ -39,26 +39,31 @@
 
     <!--Modal showing the image to be solved-->
     <div class="modal-container" id="modal-game-rules">
-        <div class="modal">
+        <div class="rules-modal">
             <button class="modal-close-btn" id="close-modal">X</button>
             <h3>Game Rules</h3>
-            <p>There are three levels to solve: Easy, Medium and Hard Level. Each level has their own count of puzzle squares.
-                <ul>
-                    <li>Easy level: 3 x 3 (board with 9 pieces)</li>
-                    <li>Medium level: 4 x 4 (board with 16 pieces)</li>
-                    <li>Hard level: 5 x 5 (board with 25 pieces)</li>
-                </ul>
-                Each level of puzzle has different image to solve.
+            <p>
+                There are three levels to solve: Easy, Medium and Hard Level. Each level has their own count of puzzle squares 
+                and a unique image to solve. 
+            </p>
+            <p>
                 For each puzzle one piece has been left blank, as this is left where other pieces can moved around.
+            </p>
+            <p>
                 The puzzle is randomly shuffled everytime when the player starts the game. The player can only move the puzzle pieces 
                 that are on the left, right, top or bottom sides of the blank piece. The player can move the pieces until the puzzle 
-                has been solved. 
-                When you have solved a puzzle, the Congratulations message will pop up and you will be given two choices to play again
+                has been solved.
+            </p> 
+            <p>
+                When puzzle has been solved, the Congratulations message will pop up and the player will be given two choices to play again
                 or exit the game. If you select 'Yes', it will shuffle the board again. If selected 'No', this will bring back to the main page.
+            </p>
+            <p>
                 There are two buttons under the puzzle board: Refresh and Show Image. 
                 Refresh button will shuffle the board again. Show Image button will show the full image of a puzzle that has to be solved.
-
-                The Jigsaw Puzzle Game has been developed to have fun and interactive website for all age groups. Hope you enjoy the game!
+            </p>
+            <p>
+                Enjoy the game!
             </p>
         </div>
     </div>
@@ -71,6 +76,7 @@
             &copy; Aiga Andrejeva, 2023  
         </p>
     </footer>
-
+    <!-- Script files-->
+    <script type="text/javascript" src="assets/script/index.js" defer></script>
 </body>
 </html>

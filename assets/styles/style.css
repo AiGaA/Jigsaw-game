@@ -218,6 +218,27 @@ button.game-rules-btn:hover {
     text-align: center;
 }
 
+.rules-modal {
+    width: 500px;
+    height: auto;
+    background-color: #faddae;
+    border: 1px solid var(--darkText);
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    padding: 2% 2%;
+}
+
+.rules-modal p {
+    font-size: 15px;
+    padding: 2% 2%;
+}
+
+.rules-modal ul {
+    list-style-type: none;
+    font-size: 15px;
+}
+
 .img-modal {
     width: auto;
     height: auto;
@@ -299,6 +320,21 @@ button.game-rules-btn:hover {
 }
 
 /*Media queries for responsiveness*/
+@media screen and (max-height: 600px) {
+    .rules-modal {
+        width: 800px;
+    }
+
+    .rules-modal p {
+        font-size: 14px;
+        padding: 1% 1%;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 1520px) {
     h1 {
         font-size: 2.4em;
@@ -351,6 +387,18 @@ button.game-rules-btn:hover {
         font-size: 15px;
     }
 
+    .rules-modal {
+        width: auto;
+    }
+
+    .rules-modal p {
+        font-size: 14px;
+        padding: 1% 1%;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
     /*Resize the puzzle canvas*/
     canvas {
         width: 300px !important;
@@ -417,6 +465,10 @@ button.game-rules-btn:hover {
     
     .about-us-container p {
         font-size: 13px;
+    }
+
+    .modal-container.show {
+        z-index: 9999;
     }
 
     canvas {
