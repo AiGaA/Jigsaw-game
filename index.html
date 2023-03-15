@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jigsaw puzzle game website for those who love solving puzzles">
+    <meta name="keywords" content="love puzzles, games, online, puzzles">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <link rel="stylesheet" href="assets/styles/style.css">
     <title>Jigsaw Puzzle Game</title>
@@ -24,13 +26,42 @@
 
     <section class="page-content">
         <h1>Jigsaw Puzzle Game</h1>
+        <div class="button-container">
+            <button type="button" class="game-rules-btn" id="rules-modal-btn">Game Rules</button>
+        </div>
         <h4>Choose a level you want to play</h4>
         <div class="button-container">
-            <button class="main-button"><a href="easy-level.html">Easy Level</a></button>
-            <button class="main-button"><a href="medium-level.html">Medium Level</a></button>
-            <button class="main-button"><a href="hard-level.html">Hard Level</a></button>
+            <button type="button" class="main-button"><a href="easy-level.html">Easy Level</a></button>
+            <button type="button" class="main-button"><a href="medium-level.html">Medium Level</a></button>
+            <button type="button" class="main-button"><a href="hard-level.html">Hard Level</a></button>
         </div>
     </section>
+
+    <!--Modal showing the image to be solved-->
+    <div class="modal-container" id="modal-game-rules">
+        <div class="modal">
+            <button class="modal-close-btn" id="close-modal">X</button>
+            <h3>Game Rules</h3>
+            <p>There are three levels to solve: Easy, Medium and Hard Level. Each level has their own count of puzzle squares.
+                <ul>
+                    <li>Easy level: 3 x 3 (board with 9 pieces)</li>
+                    <li>Medium level: 4 x 4 (board with 16 pieces)</li>
+                    <li>Hard level: 5 x 5 (board with 25 pieces)</li>
+                </ul>
+                Each level of puzzle has different image to solve.
+                For each puzzle one piece has been left blank, as this is left where other pieces can moved around.
+                The puzzle is randomly shuffled everytime when the player starts the game. The player can only move the puzzle pieces 
+                that are on the left, right, top or bottom sides of the blank piece. The player can move the pieces until the puzzle 
+                has been solved. 
+                When you have solved a puzzle, the Congratulations message will pop up and you will be given two choices to play again
+                or exit the game. If you select 'Yes', it will shuffle the board again. If selected 'No', this will bring back to the main page.
+                There are two buttons under the puzzle board: Refresh and Show Image. 
+                Refresh button will shuffle the board again. Show Image button will show the full image of a puzzle that has to be solved.
+
+                The Jigsaw Puzzle Game has been developed to have fun and interactive website for all age groups. Hope you enjoy the game!
+            </p>
+        </div>
+    </div>
 
     <footer id="footer">
         <a href="https://github.com/AiGaA/Jigsaw-puzzle-game" target="_blank">

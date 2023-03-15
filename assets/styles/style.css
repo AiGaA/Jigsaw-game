@@ -118,7 +118,27 @@ h4 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 2%;
+    margin-top: 1.2%;
+}
+
+button.game-rules-btn {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid var(--greenAccent);
+    border-radius: 5px;
+    background-color: var(--lightGreen);
+    font-size: 16px;
+    font-family: 'Montserrat-Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button.game-rules-btn:hover {
+    background-color: rgba(242, 204, 143, .6);
+    transition: ease .4s;
 }
 
 .main-button {
