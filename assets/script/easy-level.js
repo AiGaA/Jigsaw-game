@@ -58,6 +58,7 @@ function setup() {
 function draw() {
 
     background(0);
+    
     for(let i = 0; i < cols; i++){
         for(let j = 0; j < rows; j++) {
             let index = i + j * cols;
