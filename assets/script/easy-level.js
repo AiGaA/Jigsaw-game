@@ -173,5 +173,5 @@ function gameEnd() {
 }
 
 function goHome() {
-    window.location.href="../index.html";
+    window.location.href="./index.html";
 }
