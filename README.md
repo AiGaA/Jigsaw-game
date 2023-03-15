@@ -52,6 +52,19 @@ For this project I have used Balsamiq tool to create layout and design for the g
 Screenshots for Web page:
 ![alt text](./assets/images/mainPg.PNG "Main page screenshot for the website")
 
+### Color Scheme
+The color scheme for thsi project was to choose a neutral colors, as the images would be bright and that would be the focus for the website. 
+The color palette I chose to use was taken from [coolors.co](https://coolors.co/palette/f4f1de-e07a5f-3d405b-81b29a-f2cc8f) website.
+![alt text](./assets/images/color-scheme.PNG "Color palette that is used for website")
+
+
+### Typography
+For typography I chose to use downloadable [Google Fonts](https://fonts.google.com/specimen/Montserrat?query=Montserrat).
+These are three fonts that are used: Montserrat-Bold, Montserrat-Regular and Montserrat-Thin. If the browser does not support these fonts it should fall back to sans-serif.
+
+### Images
+All images used in this project were custom made. All puzzle images were created using free design tool [Canva](https://www.canva.com/). This tool is very easy to use, and has good variety of free patterns, backgrounds and graphics.
+
 ## Testing
 ### Validator Testing
 
@@ -71,3 +84,4 @@ Clearing cache helped to resolve this.
 # Deployment
 
 This site was built using [GitHub Pages](https://pages.github.com/).
+
