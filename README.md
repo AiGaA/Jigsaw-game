@@ -46,8 +46,7 @@ The function call was misplaced and this was fixed by placing it into draw() fun
 ![alt text](./assets/images/Infinite-loop-bug.PNG "Showing infinite loop bug in console log")
 
 
-When project was deployed bug below was coming up on accessing pages on the website, due to some file path declarations. This issue was resolved
-by fixing path to files and checked throughout the project making sure this does not happen. 
+When project was deployed bug below was coming up on accessing pages on the website, due to some file path declarations. This issue was resolved by fixing path to files and checked throughout the project making sure this does not happen.
 ![alt text](./assets/images/github-error.PNG "Github 404 page")
 
 
