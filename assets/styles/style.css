@@ -89,6 +89,15 @@ h1 {
     margin: 4% 0;
 }
 
+h2 {
+    text-align: center;
+    font-size: 3.2em;
+    font-family: 'Montserrat-Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding: 2% 0;
+    margin: 2% 0;
+}
+
 h4 {
     text-align: center;
     font-family: 'Montserrat-Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -227,6 +236,21 @@ h4 {
     border-radius: 5px;
 }
 
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 16%;
+    background-color: rgba(129, 178, 154, 0.1);
+    padding: 2% 4%;
+    border-radius: 25px;
+}
+
+.about-us-container p {
+    margin: 3% 0;
+}
+
 #footer {
     position: absolute;
     text-align: center;
@@ -264,6 +288,11 @@ h4 {
         padding: 4% 4%;
     }
 
+    h2 {
+        font-size: 2.8em;
+        margin: 5% 0;
+    }
+
     h4 {
         font-size: 1.2em;
         padding: 2% 2%;
@@ -276,6 +305,17 @@ h4 {
 
     .main-button {
         width: 300px;
+    }
+
+    .about-us-container {
+        margin: 2% 10%;
+        padding: 3% 6%;
+        border-radius: 25px;
+    }
+    
+    .about-us-container p {
+        margin: 3% 0;
+        font-size: 15px;
     }
 
     /*Resize the puzzle canvas*/
@@ -312,6 +352,11 @@ h4 {
         padding: 4% 0;
     }
 
+    h2 {
+        font-size: 2em;
+        margin: 5% 0;
+    }
+
     h4 {
         font-size: 1em;
         padding: 2% 2%;
@@ -335,6 +380,10 @@ h4 {
     .flex-nav a {
         font-size: 1rem;
         margin: 8px;
+    }
+    
+    .about-us-container p {
+        font-size: 13px;
     }
 
     canvas {
