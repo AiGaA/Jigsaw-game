@@ -34,7 +34,8 @@ body {
     background-color: var(--backgroundColor);
     color: var(--darkText);
     font-family: 'Montserrat-Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100%;
+    min-height: 100%;
+    padding-bottom: 7rem;
 }
 
 nav {
@@ -104,6 +105,10 @@ h4 {
     font-weight: 500;
     font-size: 1.4em;
     padding: 1.6% 0;
+}
+
+.page-content {
+    padding-bottom: 10%;
 }
 
 .button-container {
@@ -252,17 +257,24 @@ h4 {
 }
 
 #footer {
-    position: absolute;
+    position: fixed;
     text-align: center;
     width: 100%;
-    padding: 1em 1em;
+    padding: 0.6em 0.6em;
     bottom: 0;
+    height: fit-content;
+    background-color: rgba(242, 203, 141); 
+}
+
+#footer p {
+    font-size: 15px;
+    margin: 3px 0;
 }
 
 #octocat-img {
-    width: 34px;
+    width: 28px;
     height: auto;
-    margin: 10px;
+    margin: 3px;
 }
 
 /*Media queries for responsiveness*/
