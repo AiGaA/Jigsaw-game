@@ -35,3 +35,22 @@ This site is goals are bringing some positivity and to create fun environtment f
 For this project I have used Balsamiq tool to create layout and design for the game. 
 Screenshots for Web page:
 ![alt text](./assets/images/mainPg.PNG "Main page screenshot for the website")
+
+## Testing
+### Validator Testing
+
+### Bugs
+
+When implemented isSolved() function to the puzzle to show when puzzle has been solved in console.log it was going in infinte loop. 
+The function call was misplaced and this was fixed by placing it into draw() function in js file, which have solved the issue. 
+![alt text](./assets/images/Infinite-loop-bug.PNG "Showing infinite loop bug in console log")
+
+
+When project was deployed bug below was coming up on accessing pages on the website, due to some file path declarations. This issue was resolved
+by fixing path to files and checked throughout the project making sure this does not happen. 
+![alt text](./assets/images/github-error.PNG "Github 404 page")
+
+
+# Deployment
+
+This site was built using [GitHub Pages](https://pages.github.com/).

@@ -22,7 +22,6 @@ closeImageModal.addEventListener('click', () =>{
     showImageModal.classList.remove('show');
 });
 
-
 function preload() {
     source = loadImage("./assets/images/fox.png");
 }
@@ -59,7 +58,6 @@ function setup() {
 function draw() {
 
     background(0);
-    //image(source, 0, 0);
     for(let i = 0; i < cols; i++){
         for(let j = 0; j < rows; j++) {
             let index = i + j * cols;
@@ -89,7 +87,6 @@ function draw() {
     gameEnd();
     background(source);
     }
-    
 }
 
 function swap(i, j, arr) {
