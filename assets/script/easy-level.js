@@ -23,7 +23,7 @@ closeImageModal.addEventListener('click', () =>{
 });
 
 function preload() {
-    source = loadImage("./assets/images/fox.png");
+    source = loadImage("assets/images/fox.png");
 }
 
 function setup() {

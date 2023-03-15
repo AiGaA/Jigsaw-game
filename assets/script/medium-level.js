@@ -23,7 +23,7 @@ closeImageModal.addEventListener('click', () =>{
 });
 
 function preload() {
-    source = loadImage("./assets/images/space.png");
+    source = loadImage("assets/images/space.png");
 }
 
 function setup() {
@@ -174,5 +174,5 @@ function gameEnd() {
 }
 
 function goHome() {
-    window.location.href="../index.html";
+    window.location.href="index.html";
 }
