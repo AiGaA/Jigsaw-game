@@ -149,7 +149,7 @@ button.game-rules-btn:hover {
     transition: ease .4s;
 }
 
-.main-button {
+.button-container a {
     width: 350px;
     height: 40px;
     text-align: center;
@@ -158,14 +158,21 @@ button.game-rules-btn:hover {
     border-radius: 5px;
     font-size: 18px;
     font-family: 'Montserrat-Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--darkText);
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2.2px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
-.main-button:hover {
+.button-container a:hover {
     background-color: rgba(129, 178, 154, 0.3);
     transition: ease .4s;
+    color: var(--darkText);
 }
 
 /*Adjust puzzle to the centre of the page*/
@@ -475,7 +482,7 @@ input[type=submit]:hover {
         margin: 5%;
     }
 
-    .main-button {
+    .button-container a {
         width: 300px;
     }
 
@@ -553,19 +560,16 @@ input[type=submit]:hover {
         margin: 5%;
     }
 
-    .main-button {
+    .button-container a {
         width: 200px;
         height: 32px;
+        font-size: 14px;
+        letter-spacing: 1.8px;
     }
 
     button.game-rules-btn {
         width: 160px;
         height: 28px;
-        font-size: 14px;
-        letter-spacing: 1.8px;
-    }
-
-    .main-button a {
         font-size: 14px;
         letter-spacing: 1.8px;
     }
