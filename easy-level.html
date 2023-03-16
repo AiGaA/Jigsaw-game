@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jigsaw puzzle game website for those who love solving puzzles">
-    <meta name="keywords" content="love puzzles, games, online, puzzles">
+    <meta name="description" content="Easy Level puzzle game with Fox image">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <link rel="stylesheet" href="assets/styles/style.css">
     <title>Jigsaw Puzzle Game - Easy Level</title>
 </head>
+
 <body>
+    <!--Navbar-->
     <header>
         <nav class="flex-nav">
             <div class="header-img">
@@ -19,15 +20,18 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <!--Main content-->
     <div id="puzzleDiv"></div>
     <div id="action-btn">
         <button type="button" class="action-button" id="refresh-button">Refresh</button>
         <button type="button" class="action-button" id="show-img">Show Image</button>
     </div>
+
     <!--Modal shows when game completed-->
     <div class="modal-container" id="modal-win">
         <div class="modal">
@@ -37,6 +41,7 @@
             <button type="button" class="modal-btn" id="btn-close">No</button>
         </div>
     </div>
+
     <!--Modal showing the image to be solved-->
     <div class="modal-container" id="modal-full-img">
         <div class="img-modal">
@@ -44,10 +49,11 @@
             <img src="assets/images/fox.png" alt="Full puzzle image of fox.">
         </div>
     </div>
+
      <!-- Script files-->
      <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
      <script type="text/javascript" src="assets/script/tile.js"></script>
      <script type="text/javascript" src="assets/script/easy-level.js" defer></script>
-</body>
 
+</body>
 </html>

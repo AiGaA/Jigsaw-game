@@ -39,6 +39,7 @@ body {
     padding-bottom: 7rem;
 }
 
+/*Navbar style*/
 nav {
     height: 64px;
     padding: 5px 0;
@@ -85,6 +86,7 @@ nav {
     margin: 0;
 }
 
+/*Heading styles*/
 h1 {
     text-align: center;
     font-size: 3.6em;
@@ -112,10 +114,12 @@ h4 {
     padding: 1.6% 0;
 }
 
+/*This won't let footer overlap the content when on smaller screen sizes*/
 .page-content {
     padding-bottom: 10%;
 }
 
+/*Button style rules*/
 .button-container {
     height: auto;
     display: flex;
@@ -169,6 +173,7 @@ button.game-rules-btn:hover {
     letter-spacing: 2.2px;
 }
 
+/*Adjust puzzle to the centre of the page*/
 #puzzleDiv {
     display: flex;
     justify-content: center;
@@ -176,6 +181,7 @@ button.game-rules-btn:hover {
     margin-top: 5%;
 }
 
+/*Action buttons for Refresh and Show image on game pages*/
 #action-btn {
     display: flex;
     justify-content: center;
