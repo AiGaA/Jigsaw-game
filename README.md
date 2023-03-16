@@ -79,6 +79,22 @@ All images used in this project were custom made. All puzzle images were created
 ## Testing
 ### Validator Testing
 
+- HTML 
+    - An error was returned when testing website through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Faigaa.github.io%2FJigsaw-puzzle-game%2F)  
+    ![alt text](./assets/images/btn-errors.PNG "Error coming up when <a> element has wrapped <button> element.") 
+    - A warning was displayed for js script type attribute on easy-level.html, medium-level.html and hard-level.html pages  
+    ![alt text](./assets/images/js-script-warn.PNG "Warning shown for type attribute on easy-level.html, medium-level.html and hard-level.html pages.") 
+    - These issues were fixed and returned no errors  
+    ![alt text](./assets/images/btn-errors-clr.PNG "No warnings displayed when ran through W3C validator.")   
+
+- CSS  
+    - There were no errors found when testing through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faigaa.github.io%2FJigsaw-puzzle-game%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)  
+    ![alt text](./assets/images/css-clr.PNG "No warnings displayed when ran through W3C CSS validator.")  
+
+- JavaScript  
+    - JavaScript tested using [BeautifulTools](https://beautifytools.com/javascript-validator.php)  
+    ![alt text](./assets/images/js-clr.PNG "Arrow function syntax available on ES6. Use 'esversion: 6'.") 
+
 ### Bugs
 
 When implemented isSolved() function to the puzzle to show when puzzle has been solved in console.log it was going in infinte loop. 

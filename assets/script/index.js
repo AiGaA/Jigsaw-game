@@ -6,6 +6,6 @@ showRules.addEventListener('click', () => {
     showRulesModal.classList.add('show');
 });
 
-closeRulesModal.addEventListener('click', () =>{
+closeRulesModal.addEventListener('click', () => {
     showRulesModal.classList.remove('show');
 });
