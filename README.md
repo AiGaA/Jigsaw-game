@@ -23,38 +23,49 @@ Jigsaw Puzzle Game is fun and interactive site for kids and grownups where you c
 
 This game has 3 levels: Easy, Medium and Hard to choose from. Each puzzle has their own set of squares. 
 
-- Easy Level is 3x3 squares and has simple image of Fox. This shuffles 50 times and is the most easiest puzzle to solve. 
-![alt text](./assets/images/puzzle-3x3.PNG "Shuffled puzzle - Easy Level")
-- Medium Level is 4x4 squares and has little bit more colorful image. This shuffles 100 times and is a little trickier to solve. 
-![alt text](./assets/images/puzzle-4x4.PNG "Shuffled puzzle - Medium Level")
-- Hard Level game is 5x5 squares and is hardest to solve. It has very colourful image, and will take more time and patience to solve this puzzle. 
-![alt text](./assets/images/puzzle-5x5.PNG "Shuffled puzzle - Hard Level")
+- Easy Level is 3x3 squares and has simple image of Fox. This shuffles 50 times and is the most easiest puzzle to solve.   
+    ![alt text](./assets/images/puzzle-3x3.PNG "Shuffled puzzle - Easy Level")
+- Medium Level is 4x4 squares and has little bit more colorful image. This shuffles 100 times and is a little trickier to solve.   
+    ![alt text](./assets/images/puzzle-4x4.PNG "Shuffled puzzle - Medium Level")
+- Hard Level game is 5x5 squares and is hardest to solve. It has very colourful image, and will take more time and patience to solve this puzzle.   
+    ![alt text](./assets/images/puzzle-5x5.PNG "Shuffled puzzle - Hard Level")
 
-Each puzzle has a 'Show Image' button at the bottom that allows to see what image has to look like. 
+Each puzzle has a 'Show Image' button at the bottom that allows to see what image has to look like.   
 ![alt text](./assets/images/show-img-btn.PNG "Show image button, that displays a full puzzle image")
 
-Each puzzle has a 'Refresh' button, that shuffles the image again.
+Each puzzle has a 'Refresh' button, that shuffles the image again.   
 ![alt text](./assets/images/refresh-btn.PNG "Refresh button that allows to shuffle puzzle")
 
 
 ### Site Purpose
-Playing puzzles can be very beneficial to kids and as well as adults. Playing puzzle games can be great fun, it sharpens your mind, develop memory skills, as well as an abiliy to plan, test ideas and solve problems.
+- Playing puzzles can be very beneficial to kids and as well as adults. 
+- Playing puzzle games can be great fun, it sharpens your mind, develop memory skills, as well as an abiliy to plan, test ideas and solve problems.
 
 ### Target Audience
-This site is developed for anyone and any age group who enjoys games, puzzles, or just like to have fun.
+- This site is developed for anyone and any age group who enjoys games, puzzles, or just like to have fun.
+- This site is developed with thaught that it easy accessable to all users. Compatibility with different device sizes makes this game accessable to play easy on desktop or the mobile device.
+- Different levels of the game makes more fun to challenge inner self. 
+
 
 ### Goals
-This site is goals are bringing some positivity and to create fun environtment for its users.
+- To bring some positivity and to create fun environtment for its users.
+- To offer a user-friendly game that is simple to play and comprehend.
+- To produce code that complies with best practices.
 
 ## Design
 ### Wireframes
-For this project I have used Balsamiq tool to create layout and design for the game. 
-Screenshots for Web page:
-![alt text](./assets/images/mainPg.PNG "Main page screenshot for the website")
+For this project Balsamiq tool was used to create layout and design for the game. 
+- Screenshots for Web page:   
+    ![alt text](./assets/images/mainPg.PNG "Main page screenshot for the games website")  
+    ![alt text](./assets/images/easyLvl.PNG "Easy level page screenshot for the games website")  
+    ![alt text](./assets/images/MediumLvl.PNG "Medium level page screenshot for the games website")  
+    ![alt text](./assets/images/HardLvl.PNG "Hard level page screenshot for the games website")  
+    ![alt text](./assets/images/AboutPg.PNG "About page screenshot for the games website")  
+    ![alt text](./assets/images/ContactPg.PNG "Contact Us page screenshot for the games website")  
 
 ### Color Scheme
 The color scheme for thsi project was to choose a neutral colors, as the images would be bright and that would be the focus for the website. 
-The color palette I chose to use was taken from [coolors.co](https://coolors.co/palette/f4f1de-e07a5f-3d405b-81b29a-f2cc8f) website.
+The color palette I chose to use was taken from [coolors.co](https://coolors.co/palette/f4f1de-e07a5f-3d405b-81b29a-f2cc8f) website.  
 ![alt text](./assets/images/color-scheme.PNG "Color palette that is used for website")
 
 
