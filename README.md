@@ -9,7 +9,7 @@ Enjoy and you can even share with your friends! 😊
 
 The link to the live game is here: [Jigsaw Puzzle Game](https://aigaa.github.io/Jigsaw-puzzle-game/index.html)  
 
-![alt text](./assets/images/responsive.PNG "Website layout across multiple devices")  
+![alt text](./assets/docs/testing/responsive.PNG "Website layout across multiple devices")  
 
 ## Table of Contents
 - [About](https://github.com/AiGaA/Jigsaw-puzzle-game#about)
@@ -36,17 +36,17 @@ Jigsaw Puzzle Game is fun and interactive site for kids and grownups where you c
 This game has 3 levels: Easy, Medium and Hard to choose from. Each puzzle has their own set of squares. 
 
 - Easy Level is 3x3 squares and has simple image of Fox. This shuffles 50 times and is the most easiest puzzle to solve.   
-    ![alt text](./assets/images/puzzle-3x3.PNG "Shuffled puzzle - Easy Level")
+    ![alt text](./assets/docs/features/puzzle-3x3.PNG "Shuffled puzzle - Easy Level")
 - Medium Level is 4x4 squares and has little bit more colorful image. This shuffles 100 times and is a little trickier to solve.   
-    ![alt text](./assets/images/puzzle-4x4.PNG "Shuffled puzzle - Medium Level")
+    ![alt text](./assets/docs/features/puzzle-4x4.PNG "Shuffled puzzle - Medium Level")
 - Hard Level game is 5x5 squares and is hardest to solve. It has very colourful image, and will take more time and patience to solve this puzzle.   
-    ![alt text](./assets/images/puzzle-5x5.PNG "Shuffled puzzle - Hard Level")
+    ![alt text](./assets/docs/features/puzzle-5x5.PNG "Shuffled puzzle - Hard Level")
 
 Each puzzle has a 'Show Image' button at the bottom that allows to see what image has to look like.   
-![alt text](./assets/images/show-img-btn.PNG "Show image button, that displays a full puzzle image")
+![alt text](./assets/docs/features/show-img-btn.PNG "Show image button, that displays a full puzzle image")
 
 Each puzzle has a 'Refresh' button, that shuffles the image again.   
-![alt text](./assets/images/refresh-btn.PNG "Refresh button that allows to shuffle puzzle")
+![alt text](./assets/docs/features/refresh-btn.PNG "Refresh button that allows to shuffle puzzle")
 
 
 ### Site Purpose
@@ -68,12 +68,12 @@ Each puzzle has a 'Refresh' button, that shuffles the image again.
 ### Wireframes
 For this project Balsamiq tool was used to create layout and design for the game. 
 - Screenshots for Web page:   
-    ![alt text](./assets/images/mainPg.PNG "Main page screenshot for the games website")  
-    ![alt text](./assets/images/easyLvl.PNG "Easy level page screenshot for the games website")  
-    ![alt text](./assets/images/MediumLvl.PNG "Medium level page screenshot for the games website")  
-    ![alt text](./assets/images/HardLvl.PNG "Hard level page screenshot for the games website")  
-    ![alt text](./assets/images/AboutPg.PNG "About page screenshot for the games website")  
-    ![alt text](./assets/images/ContactPg.PNG "Contact Us page screenshot for the games website")  
+    ![alt text](./assets/docs/wireframes/mainPg.PNG "Main page screenshot for the games website")  
+    ![alt text](./assets/docs/wireframes/easyLvl.PNG "Easy level page screenshot for the games website")  
+    ![alt text](./assets/docs/wireframes/MediumLvl.PNG "Medium level page screenshot for the games website")  
+    ![alt text](./assets/docs/wireframes/HardLvl.PNG "Hard level page screenshot for the games website")  
+    ![alt text](./assets/docs/wireframes/AboutPg.PNG "About page screenshot for the games website")  
+    ![alt text](./assets/docs/wireframes/ContactPg.PNG "Contact Us page screenshot for the games website")  
 
 ### Color Scheme
 The color scheme for thsi project was to choose a neutral colors, as the images would be bright and that would be the focus for the website. 
