@@ -1,4 +1,16 @@
-# Jigsaw-puzzle-game
+# Jigsaw-puzzle-game  
+Welcome to the Jigsaw Puzzle Game page! This page is made by an enthusiastic puzzle solver, who wanted to bring this fun game online and share with everyone else!
+
+This website is perfect for young children or adults who enjoy some problem solving games. The different levels of the game easy can be adjust to any age group and skill level. 
+        
+Playing puzzle games can be great fun, it sharpens your mind, develop memory skills, as well as an ability to plan, test ideas and solve problems. 
+
+Enjoy and you can even share with your friends! 😊
+
+The link to the live game is here: [Jigsaw Puzzle Game](https://aigaa.github.io/Jigsaw-puzzle-game/index.html)  
+
+![alt text](./assets/images/responsive.PNG "Website layout across multiple devices")  
+
 ## Table of Contents
 - [About](https://github.com/AiGaA/Jigsaw-puzzle-game#about)
     - [Site purpose](https://github.com/AiGaA/Jigsaw-puzzle-game#site-purpose)
