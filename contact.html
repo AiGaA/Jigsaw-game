@@ -11,6 +11,7 @@
     <title>Jigsaw Puzzle Game - About</title>
 </head>
 <body>
+    <!--Navbar-->
     <header>
         <nav class="flex-nav">
             <div class="header-img">
@@ -18,29 +19,40 @@
             </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="about.html">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <!--Main Content-->
     <section>
-        <h2>Hi! 👋</h2>
-        <div class="about-us-container">
-            <p>
-                Welcome to the Jigsaw Puzzle Game page! This page is made by an enthusiastic puzzle solver, who wanted to bring this fun
-                game online and share with everyone else!
-            </p>
-            <p>
-                This website is perfect for young children or adults who enjoy some problem solving games. The different levels of the game
-                easy can be adjust to any age group and skill level. 
-            </p>
-            <p>
-                Playing puzzle games can be great fun, it sharpens your mind, develop memory skills, as well as an ability to plan, test ideas 
-                and solve problems. Enjoy and you can even share with your friends! 😊
-            </p>
-        </div>
+        <h2>Say Hello!</h2>
+    
+        <h4>Any suggestions or feedback welcome!</h4>
+    
     </section>
 
+    <!--Form for users to submit their queries-->
+    <form class="form" action="thankyou.html" method="get">
+        <div class="form-section">
+            <label class="form-label">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-section">
+            <label class="form-label">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-section">
+            <label class="form-label">Your message:</label>
+            <textarea class="textarea-section" placeholder="Your query...." required></textarea>
+        </div>
+        <div class="submit-btn">
+            <input type="submit" name="submitf" value="Submit">
+        </div>
+    </form>
+     
+    <!--Footer-->
     <footer id="footer">
         <a href="https://github.com/AiGaA/Jigsaw-puzzle-game" target="_blank">
             <img id="octocat-img" src="assets/images/octocat.png" alt="Github logo with link that directs to the repository of this game.">

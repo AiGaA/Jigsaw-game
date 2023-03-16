@@ -66,6 +66,10 @@ nav {
     display: inline-block;
 }
 
+.active {
+    border-bottom: 1px solid var(--darkText);
+}
+
 .flex-nav a {
     color: var(--darkText);
     font-family: 'Montserrat-Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -193,6 +197,7 @@ button.game-rules-btn:hover {
     transition: ease .4s
 }
 
+/*Modal styles*/
 .modal-container {
     background: rgba(0, 0, 0, 0.4);
     display: flex;
@@ -283,6 +288,7 @@ button.game-rules-btn:hover {
     border-radius: 5px;
 }
 
+/*About us page container*/
 .about-us-container {
     display: flex;
     flex-direction: column;
@@ -298,6 +304,72 @@ button.game-rules-btn:hover {
     margin: 3% 0;
 }
 
+/* Form styles */
+form {
+    background-color: rgba(224, 122, 95, .5);
+    width: 40%;
+    padding: 2% 3%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea-section {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+	margin: 0 auto;
+    resize: none;
+    border-radius: 4px;
+    border: 0.2px solid var(--beigeBg);
+    color: var(--darkText);
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text],
+input[type=email] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+    border-radius: 4px;
+    border: 0.2px solid var(--beigeBg);
+    color: var(--darkText);
+}
+
+input[type=submit] {
+    width: 80px;
+	margin-top: 20px;
+	margin-left: 5%;
+	padding: 0.75rem;
+	background-color: #c1e6d4;
+
+	border: none;
+	border-radius: 5px;
+    font-size: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: var(--beigeBg);
+    transition: 0.4s;
+}
+
+.form-label {
+    margin: 0 5%;
+    margin-top: 5px;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+/*Footer styles*/
 #footer {
     position: fixed;
     text-align: center;
