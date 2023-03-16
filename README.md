@@ -73,28 +73,54 @@ For this project Balsamiq tool was used to create layout and design for the game
 
 <details><summary>Screenshots for Web page:</summary> 
 
-![alt text](./assets/docs/wireframes/mainPg.PNG "Main page screenshot of wireframe for the games website")  
-![alt text](./assets/docs/wireframes/easyLvl.PNG "Easy level page screenshot of wireframe for the games website")  
-![alt text](./assets/docs/wireframes/MediumLvl.PNG "Medium level page screenshot of wireframe for the games website")  
-![alt text](./assets/docs/wireframes/HardLvl.PNG "Hard level page screenshot of wireframe for the games website")  
-![alt text](./assets/docs/wireframes/AboutPg.PNG "About page screenshot of wireframe for the games website")  
-![alt text](./assets/docs/wireframes/ContactPg.PNG "Contact Us page screenshot of wireframe for the games website")  
+- Summary: 
+    Website has a navbar with three links: Home, About and Contact.
+    Home page has three main buttons with Game Levels: Easy, Medium and Hard. When clicked, it will redirect to the webpage of that game level respectively.
+        ![alt text](./assets/docs/wireframes/mainPg.PNG "Main page screenshot of wireframe for the games website")   
+
+    - Puzzle game 'Easy Level' has 3 x 3 squares
+        ![alt text](./assets/docs/wireframes/easyLvl.PNG "Easy level page screenshot of wireframe for the games website")  
+
+    - Puzzle game 'Medium Level' has 4 x 4 squares
+        ![alt text](./assets/docs/wireframes/MediumLvl.PNG "Medium level page screenshot of wireframe for the games website")  
+
+    - Puzzle game 'Hard Level' has 5 x 5 squares
+        ![alt text](./assets/docs/wireframes/HardLvl.PNG "Hard level page screenshot of wireframe for the games website")  
+
+        ![alt text](./assets/docs/wireframes/AboutPg.PNG "About page screenshot of wireframe for the games website")  
+        ![alt text](./assets/docs/wireframes/ContactPg.PNG "Contact Us page screenshot of wireframe for the games website")  
 
 </details>
 
 <details><summary>Live Website:</summary> 
 
-![alt text](./assets/docs/wireframes/desktop/main-page.PNG "Main page screenshot for the games website")  
-![alt text](./assets/docs/wireframes/desktop/game-rules.PNG "Game rules screenshot for the games website")  
-![alt text](./assets/docs/wireframes/desktop/puzzle-html.PNG "Puzzle page screenshot for the games website")  
-![alt text](./assets/docs/wireframes/desktop/winner-window.PNG "Winner window screenshot for the games website")  
-![alt text](./assets/docs/wireframes/desktop/about-page.PNG "About Us page screenshot for the games website")    
-![alt text](./assets/docs/wireframes/desktop/contact-page.PNG "Contact page screenshot for the games website")   
-![alt text](./assets/docs/wireframes/desktop/thank-you.PNG "Thank you for submission page screenshot for the games website")   
+- Features implemented: 
+    - As per wireframes, navbar and three main buttons were implemented to show the levels of the game user might choose to play.
+        ![alt text](./assets/docs/wireframes/desktop/main-page.PNG "Main page screenshot for the games website")  
+
+    - Feature were added - 'Game Rules' button was created to show a modal with rules of the game.
+        ![alt text](./assets/docs/wireframes/desktop/game-rules.PNG "Game rules screenshot for the games website")  
+    
+    - Puzzle Game page, that has been shuffled and ready to play. Two buttons at the bottom were implented to refresh the puzzle and show the full image that needs to be solved.
+        ![alt text](./assets/docs/wireframes/desktop/puzzle-html.PNG "Puzzle page screenshot for the games website")  
+    
+    - When the game a pop up modal shows congratulation's message with two options: select 'Yes' if you user wishes to repeat the game, or select 'No' and this will bring user back to the home page.
+        ![alt text](./assets/docs/wireframes/desktop/winner-window.PNG "Winner window screenshot for the games website")  
+    
+    - Short description about the Jigsaw Puzzle Game
+        ![alt text](./assets/docs/wireframes/desktop/about-page.PNG "About Us page screenshot for the games website")    
+    
+    - Contact us page. User can send any comments or suggestions
+        ![alt text](./assets/docs/wireframes/desktop/contact-page.PNG "Contact page screenshot for the games website")   
+    
+    - Thank You message for the user after message has been submitted.
+        ![alt text](./assets/docs/wireframes/desktop/thank-you.PNG "Thank you for submission page screenshot for the games website")   
 
 </details>
 
 <details><summary>Tablet:</summary> 
+
+- Screenshorts of tablet
 
 ![alt text](./assets/docs/wireframes/tablet/home-tab.PNG "Main page screenshot for the games website tablet")  
 ![alt text](./assets/docs/wireframes/tablet/rules-tab.PNG "Game rules screenshot for the games website tablet")  
@@ -104,6 +130,8 @@ For this project Balsamiq tool was used to create layout and design for the game
 </details>
 
 <details><summary>Mobile:</summary> 
+
+- Screenshorts of mobile devices
 
 ![alt text](./assets/docs/wireframes/mobile/home-mob.PNG "Main page screenshot for the games website mobile")  
 ![alt text](./assets/docs/wireframes/mobile/rules-mob.PNG "Game rules screenshot for the games website mobile")  
@@ -186,7 +214,6 @@ Clearing cache helped to resolve this.
 - [Balsamiq](https://balsamiq.com/): To create wireframes
 - [Canva](https://www.canva.com/): Create puzzle images and favicon
 - [Google Fonts](https://fonts.google.com/): For the Montserrat Font that was used across the project
-- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): To postion and create more adaptive content  
 - [Am I Responsive](https://ui.dev/amiresponsive): To check, if website looks good across multiple devices
 - Google Chrome DevTools: This was used throught the project to debug and see the compatibilaty across multiple device sizes
 
@@ -208,4 +235,9 @@ The site deployed: [https://aigaa.github.io/Jigsaw-puzzle-game/index.html](https
 
 # Credits <a name="credits"></a>
 
-- 
+- Code Institutes material on HTML, CSS and JavaScript
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): To postion and create more adaptive content  
+- [CodingTrain](https://thecodingtrain.com/): Introduction on p5.js and variations of sliding puzzle creations
+- [Stackowerflow](https://stackoverflow.com/): Finding relative answers to questions arised during the project
+- [GitHub Gist](https://gist.github.com/discover): For many, many more questions arised
+- And big thanks to Irene at Code Institute and my mentor Martina! 
