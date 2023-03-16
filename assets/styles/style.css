@@ -371,6 +371,30 @@ input[type=submit]:hover {
     font-size: 15px;
 }
 
+/*Thank you page*/
+.thank-you-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;   
+}
+
+.thank-you-page p {
+    padding: 2% 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/*Social Icons*/
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
 /*Footer styles*/
 #footer {
     position: fixed;
