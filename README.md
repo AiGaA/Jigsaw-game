@@ -14,25 +14,27 @@ The link to the live game is here: [Jigsaw Puzzle Game](https://aigaa.github.io/
 ## Table of Contents
 - [About](#about)
     - [Site purpose](#site-purpose)
-    - [Target audience](https://github.com/AiGaA/Jigsaw-puzzle-game#target-audience)
-    - [Goals](https://github.com/AiGaA/Jigsaw-puzzle-game#goals)
-- [Design](https://github.com/AiGaA/Jigsaw-puzzle-game#design)
-    - [Wireframes](https://github.com/AiGaA/Jigsaw-puzzle-game#wireframes)
-    - [Color Scheme](https://github.com/AiGaA/Jigsaw-puzzle-game#color-scheme)
-    - [Typography](https://github.com/AiGaA/Jigsaw-puzzle-game#typography)
-    - [Images](https://github.com/AiGaA/Jigsaw-puzzle-game#images)
-- [Technologies Used](https://github.com/AiGaA/Jigsaw-puzzle-game#technologies-used)
-    - [Frameworks, Libraries & Programs Used](https://github.com/AiGaA/Jigsaw-puzzle-game#frameworks)
-- [Testing](https://github.com/AiGaA/Jigsaw-puzzle-game#testing)
-    - [Validator Testing](https://github.com/AiGaA/Jigsaw-puzzle-game#validator-testing)
-    - [Bugs](https://github.com/AiGaA/Jigsaw-puzzle-game#bugs)
-    - [Unfixed Bugs](https://github.com/AiGaA/Jigsaw-puzzle-game#unfixed-bugs)
-- [Deployment](https://github.com/AiGaA/Jigsaw-puzzle-game#deployment)
-- [Credits](https://github.com/AiGaA/Jigsaw-puzzle-game#credits)
+    - [Target audience](#target-audience)
+    - [Goals](#goals)
+- [Design](#design)
+    - [Wireframes](#wireframes)
+    - [Color Scheme](#color-scheme)
+    - [Typography](#typography)
+    - [Images](#images)
+- [Technologies Used](#technologies-used)
+    - [Main Languages Used](#languages)
+    - [Frameworks, Libraries & Programs Used](#frameworks)
+- [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Bugs](#bugs)
+    - [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+    - [Github pages](#github-pages)
+- [Credits](#credits)
 
 
 ## About <a name="about"></a>
-Jigsaw Puzzle Game is fun and interactive site for kids and grownups where you can enjoy solving fun and colourful puzzles. 
+Jigsaw Puzzle Game is a fun and interactive site for kids and grownups where you can enjoy solving fun and colourful puzzles. 
 
 This game has 3 levels: Easy, Medium and Hard to choose from. Each puzzle has their own set of squares. 
 
@@ -54,46 +56,77 @@ Each puzzle has a 'Refresh' button, that shuffles the image again.
 - Playing puzzles can be very beneficial to kids and as well as adults. 
 - Playing puzzle games can be great fun, it sharpens your mind, develop memory skills, as well as an abiliy to plan, test ideas and solve problems.
 
-### Target Audience
+### Target Audience <a name="target-audience"></a>
 - This site is developed for anyone and any age group who enjoys games, puzzles, or just like to have fun.
 - This site is developed with thaught that it easy accessable to all users. Compatibility with different device sizes makes this game accessable to play easy on desktop or the mobile device.
 - Different levels of the game makes more fun to challenge inner self. 
 
 
-### Goals
+### Goals <a name="goals"></a>
 - To bring some positivity and to create fun environtment for its users.
 - To offer a user-friendly game that is simple to play and comprehend.
 - To produce code that complies with best practices.
 
-## Design
-### Wireframes
+## Design <a name="design"></a>
+### Wireframes <a name="wireframes"></a>
 For this project Balsamiq tool was used to create layout and design for the game.
 
 <details><summary>Screenshots for Web page:</summary> 
 
-![alt text](./assets/docs/wireframes/mainPg.PNG "Main page screenshot for the games website")  
-![alt text](./assets/docs/wireframes/easyLvl.PNG "Easy level page screenshot for the games website")  
-![alt text](./assets/docs/wireframes/MediumLvl.PNG "Medium level page screenshot for the games website")  
-![alt text](./assets/docs/wireframes/HardLvl.PNG "Hard level page screenshot for the games website")  
-![alt text](./assets/docs/wireframes/AboutPg.PNG "About page screenshot for the games website")  
-![alt text](./assets/docs/wireframes/ContactPg.PNG "Contact Us page screenshot for the games website")  
+![alt text](./assets/docs/wireframes/mainPg.PNG "Main page screenshot of wireframe for the games website")  
+![alt text](./assets/docs/wireframes/easyLvl.PNG "Easy level page screenshot of wireframe for the games website")  
+![alt text](./assets/docs/wireframes/MediumLvl.PNG "Medium level page screenshot of wireframe for the games website")  
+![alt text](./assets/docs/wireframes/HardLvl.PNG "Hard level page screenshot of wireframe for the games website")  
+![alt text](./assets/docs/wireframes/AboutPg.PNG "About page screenshot of wireframe for the games website")  
+![alt text](./assets/docs/wireframes/ContactPg.PNG "Contact Us page screenshot of wireframe for the games website")  
 
 </details>
 
-### Color Scheme
+<details><summary>Live Website:</summary> 
+
+![alt text](./assets/docs/wireframes/desktop/main-page.PNG "Main page screenshot for the games website")  
+![alt text](./assets/docs/wireframes/desktop/game-rules.PNG "Game rules screenshot for the games website")  
+![alt text](./assets/docs/wireframes/desktop/puzzle-html.PNG "Puzzle page screenshot for the games website")  
+![alt text](./assets/docs/wireframes/desktop/winner-window.PNG "Winner window screenshot for the games website")  
+![alt text](./assets/docs/wireframes/desktop/about-page.PNG "About Us page screenshot for the games website")    
+![alt text](./assets/docs/wireframes/desktop/contact-page.PNG "Contact page screenshot for the games website")   
+![alt text](./assets/docs/wireframes/desktop/thank-you.PNG "Thank you for submission page screenshot for the games website")   
+
+</details>
+
+<details><summary>Tablet:</summary> 
+
+![alt text](./assets/docs/wireframes/tablet/home-tab.PNG "Main page screenshot for the games website tablet")  
+![alt text](./assets/docs/wireframes/tablet/rules-tab.PNG "Game rules screenshot for the games website tablet")  
+![alt text](./assets/docs/wireframes/tablet/puzzle-tab.PNG "Puzzle page screenshot for the games website tablet")  
+![alt text](./assets/docs/wireframes/tablet/winner-tab.PNG "Winner window screenshot for the games website tablet")  
+
+</details>
+
+<details><summary>Mobile:</summary> 
+
+![alt text](./assets/docs/wireframes/mobile/home-mob.PNG "Main page screenshot for the games website mobile")  
+![alt text](./assets/docs/wireframes/mobile/rules-mob.PNG "Game rules screenshot for the games website mobile")  
+![alt text](./assets/docs/wireframes/mobile/puzzle-mob.PNG "Puzzle page screenshot for the games website mobile")  
+![alt text](./assets/docs/wireframes/mobile/winner-mob.PNG "Winner window screenshot for the games website mobile")  
+
+</details>
+
+
+### Color Scheme <a name="color-scheme"></a>
 The color scheme for thsi project was to choose a neutral colors, as the images would be bright and that would be the focus for the website. 
 The color palette I chose to use was taken from [coolors.co](https://coolors.co/palette/f4f1de-e07a5f-3d405b-81b29a-f2cc8f) website.  
 ![alt text](./assets/docs/wireframes/color-scheme.PNG "Color palette that is used for website")
 
-### Typography
+### Typography <a name="typography"></a>
 For typography I chose to use downloadable [Google Fonts](https://fonts.google.com/specimen/Montserrat?query=Montserrat).
 These are three fonts that are used: Montserrat-Bold, Montserrat-Regular and Montserrat-Thin. If the browser does not support these fonts it should fall back to sans-serif.
 
-### Images
+### Images <a name="images"></a>
 All images used in this project were custom made. All puzzle images were created using free design tool [Canva](https://www.canva.com/). This tool is very easy to use, and has good variety of free patterns, backgrounds and graphics.
 
 
-## Testing
+## Testing <a name="testing"></a>
 
 - The website was constantly tested during development using Chrome dev tools.
 - All links and buttons were tested. Solved many, many puzzles to test, if all features work as should.
@@ -105,7 +138,7 @@ All images used in this project were custom made. All puzzle images were created
     - Puzzle page:  
     ![alt text](./assets/docs/testing/lighthouse-puzzle.PNG "Lighthouse test for the game page")
 
-### Validator Testing
+### Validator Testing <a name="validator-testing"></a>
 
 - HTML 
     - An error was returned when testing website through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Faigaa.github.io%2FJigsaw-puzzle-game%2F)  
@@ -123,7 +156,7 @@ All images used in this project were custom made. All puzzle images were created
     - JavaScript tested using [BeautifulTools](https://beautifytools.com/javascript-validator.php)  
     ![alt text](./assets/docs/testing/js-clr.PNG "Arrow function syntax available on ES6. Use 'esversion: 6'.") 
 
-### Bugs
+### Bugs <a name="bugs"></a>
 
 When implemented isSolved() function to the puzzle to show when puzzle has been solved in console.log it was going in infinte loop. 
 The function call was misplaced and this was fixed by placing it into draw() function in js file, which have solved the issue. 
@@ -136,15 +169,15 @@ Clearing cache helped to resolve this.
 ![alt text](./assets/docs/testing/github-error.PNG "Github 404 page")
 
 
-## Technologies Used  
+## Technologies Used  <a name="technologies-used"></a>
 
-### Main Languages Used
+### Main Languages Used <a name="languages"></a>
 
 - HTML5: Structure and content for the website
 - CSS: Style and compatibilaty with different devices
 - JavaScript: Functions and logic implementation to features of a website
 
-### Frameworks, Libraries & Programs Used 
+### Frameworks, Libraries & Programs Used <a name="frameworks"></a>
 
 - [gitpod](https://www.gitpod.io/): To build the project
 - [p5.js](https://p5js.org/): A free and open source library that is accessible to everyone. The library mainly is used for building creative projects and as a developer it is interesting to try out new tools and be creative with the projects. This library worked well for this project. Full p5.j library can be found [here](https://cdn.jsdelivr.net/npm/p5/lib/)
@@ -158,7 +191,21 @@ Clearing cache helped to resolve this.
 - Google Chrome DevTools: This was used throught the project to debug and see the compatibilaty across multiple device sizes
 
 
-# Deployment
+# Deployment <a name="deployment"></a>
+
+## Github Pages <a name="github-pages"></a>
+
+Repository used: [https://github.com/AiGaA/Jigsaw-puzzle-game](https://github.com/AiGaA/Jigsaw-puzzle-game)
+
+- On GitHub, navigate to your site's repository. 
+- Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
+- In the "Code and automation" section of the sidebar, click Pages.
+- To see your published site, under "GitHub Pages", click Visit site.
+- Your GitHub Pages site is built and deployed with a GitHub Actions workflow.
+
+The site deployed: [https://aigaa.github.io/Jigsaw-puzzle-game/index.html](https://aigaa.github.io/Jigsaw-puzzle-game/index.html)
 
 
+# Credits <a name="credits"></a>
 
+- 
