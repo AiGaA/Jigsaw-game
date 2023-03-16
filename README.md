@@ -71,7 +71,7 @@ Each puzzle has a 'Refresh' button, that shuffles the image again.
 ### Wireframes <a name="wireframes"></a>
 For this project Balsamiq tool was used to create layout and design for the game.
 
-<details><summary>Screenshots for Web page:</summary> 
+<details><summary>Screenshots for Web page</summary> 
 
 - Summary: 
     - Website has a navbar with three links: Home, About and Contact.
@@ -92,7 +92,7 @@ For this project Balsamiq tool was used to create layout and design for the game
 
 </details>
 
-<details><summary>Live Website:</summary> 
+<details><summary>Live Website</summary> 
 
 - Features implemented: 
     - As per wireframes, navbar and three main buttons were implemented to show the levels of the game user might choose to play.
@@ -118,7 +118,7 @@ For this project Balsamiq tool was used to create layout and design for the game
 
 </details>
 
-<details><summary>Tablet:</summary> 
+<details><summary>Tablet</summary> 
 
 - Screenshorts of tablet
 
@@ -129,7 +129,7 @@ For this project Balsamiq tool was used to create layout and design for the game
 
 </details>
 
-<details><summary>Mobile:</summary> 
+<details><summary>Mobile</summary> 
 
 - Screenshorts of mobile devices
 
@@ -236,8 +236,8 @@ The site deployed: [https://aigaa.github.io/Jigsaw-puzzle-game/index.html](https
 ## Credits <a name="credits"></a>
 
 - Code Institutes material on HTML, CSS and JavaScript
+- [CodingTrain](https://thecodingtrain.com/): Introduction on p5.js and variations of sliding puzzle creations. Big credit to their tutorial videos and great explanations on functions. 
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): To postion and create more adaptive content  
-- [CodingTrain](https://thecodingtrain.com/): Introduction on p5.js and variations of sliding puzzle creations
 - [Stackowerflow](https://stackoverflow.com/): Finding relative answers to questions arised during the project
 - [GitHub Gist](https://gist.github.com/discover): For many, many more questions arised
 - And big thanks to Irene at Code Institute and my mentor Martina! 
