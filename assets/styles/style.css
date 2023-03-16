@@ -226,7 +226,7 @@ button.game-rules-btn:hover {
 .rules-modal {
     width: 500px;
     height: auto;
-    background-color: #faddae;
+    background-color: #f1dab4;
     border: 1px solid var(--darkText);
     border-radius: 5px;
     position: relative;
@@ -306,7 +306,7 @@ button.game-rules-btn:hover {
 
 /* Form styles */
 form {
-    background-color: rgba(224, 122, 95, .5);
+    background-color: #F2CC8F;
     width: 40%;
     padding: 2% 3%;
     margin: auto;
@@ -350,15 +350,17 @@ input[type=submit] {
 	margin-top: 20px;
 	margin-left: 5%;
 	padding: 0.75rem;
-	background-color: #c1e6d4;
-
+	background-color: rgba(129, 178, 154);
+    color: white;
 	border: none;
 	border-radius: 5px;
     font-size: 15px;
+    letter-spacing: 1.2px; 
 }
 
 input[type=submit]:hover {
-    background-color: var(--beigeBg);
+    background-color: #c1e6d4;
+    color: var(--darkText);
     transition: 0.4s;
 }
 
@@ -430,8 +432,12 @@ input[type=submit]:hover {
     }
 
     h2 {
-        font-size: 2.8em;
+        font-size: 1.8em;
         margin: 5% 0;
+    }
+
+    h3 {
+        font-size: 20px;
     }
 
     h4 {
@@ -467,10 +473,12 @@ input[type=submit]:hover {
         font-size: 14px;
         padding: 1% 1%;
     }
-    
-    h3 {
-        font-size: 20px;
+
+    form {
+        width: 80%;    
+        padding: 5% 3%;
     }
+    
     /*Resize the puzzle canvas*/
     canvas {
         width: 300px !important;
@@ -523,6 +531,13 @@ input[type=submit]:hover {
     .main-button {
         width: 200px;
         height: 32px;
+    }
+
+    button.game-rules-btn {
+        width: 160px;
+        height: 28px;
+        font-size: 14px;
+        letter-spacing: 1.8px;
     }
 
     .main-button a {
