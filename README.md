@@ -12,8 +12,8 @@ The link to the live game is here: [Jigsaw Puzzle Game](https://aigaa.github.io/
 ![alt text](./assets/docs/testing/responsive.PNG "Website layout across multiple devices")  
 
 ## Table of Contents
-- [About](https://github.com/AiGaA/Jigsaw-puzzle-game#about)
-    - [Site purpose](https://github.com/AiGaA/Jigsaw-puzzle-game#site-purpose)
+- [About](#about)
+    - [Site purpose](#site-purpose)
     - [Target audience](https://github.com/AiGaA/Jigsaw-puzzle-game#target-audience)
     - [Goals](https://github.com/AiGaA/Jigsaw-puzzle-game#goals)
 - [Design](https://github.com/AiGaA/Jigsaw-puzzle-game#design)
@@ -30,7 +30,8 @@ The link to the live game is here: [Jigsaw Puzzle Game](https://aigaa.github.io/
 - [Deployment](https://github.com/AiGaA/Jigsaw-puzzle-game#deployment)
 - [Credits](https://github.com/AiGaA/Jigsaw-puzzle-game#credits)
 
-## About
+
+## About <a name="about"></a>
 Jigsaw Puzzle Game is fun and interactive site for kids and grownups where you can enjoy solving fun and colourful puzzles. 
 
 This game has 3 levels: Easy, Medium and Hard to choose from. Each puzzle has their own set of squares. 
@@ -49,7 +50,7 @@ Each puzzle has a 'Refresh' button, that shuffles the image again.
 ![alt text](./assets/docs/features/refresh-btn.PNG "Refresh button that allows to shuffle puzzle")
 
 
-### Site Purpose
+### Site Purpose <a name="site-purpose"></a>
 - Playing puzzles can be very beneficial to kids and as well as adults. 
 - Playing puzzle games can be great fun, it sharpens your mind, develop memory skills, as well as an abiliy to plan, test ideas and solve problems.
 
