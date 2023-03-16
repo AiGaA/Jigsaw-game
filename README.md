@@ -74,8 +74,8 @@ For this project Balsamiq tool was used to create layout and design for the game
 <details><summary>Screenshots for Web page:</summary> 
 
 - Summary: 
-    Website has a navbar with three links: Home, About and Contact.
-    Home page has three main buttons with Game Levels: Easy, Medium and Hard. When clicked, it will redirect to the webpage of that game level respectively.
+    - Website has a navbar with three links: Home, About and Contact.
+        Home page has three main buttons with Game Levels: Easy, Medium and Hard. When clicked, it will redirect to the webpage of that game level respectively.  
         ![alt text](./assets/docs/wireframes/mainPg.PNG "Main page screenshot of wireframe for the games website")   
 
     - Puzzle game 'Easy Level' has 3 x 3 squares
@@ -218,9 +218,9 @@ Clearing cache helped to resolve this.
 - Google Chrome DevTools: This was used throught the project to debug and see the compatibilaty across multiple device sizes
 
 
-# Deployment <a name="deployment"></a>
+## Deployment <a name="deployment"></a>
 
-## Github Pages <a name="github-pages"></a>
+### Github Pages <a name="github-pages"></a>
 
 Repository used: [https://github.com/AiGaA/Jigsaw-puzzle-game](https://github.com/AiGaA/Jigsaw-puzzle-game)
 
@@ -233,7 +233,7 @@ Repository used: [https://github.com/AiGaA/Jigsaw-puzzle-game](https://github.co
 The site deployed: [https://aigaa.github.io/Jigsaw-puzzle-game/index.html](https://aigaa.github.io/Jigsaw-puzzle-game/index.html)
 
 
-# Credits <a name="credits"></a>
+## Credits <a name="credits"></a>
 
 - Code Institutes material on HTML, CSS and JavaScript
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): To postion and create more adaptive content  
